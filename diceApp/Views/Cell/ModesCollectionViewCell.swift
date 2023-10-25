@@ -11,7 +11,7 @@ class ModesCollectionViewCell: UICollectionViewCell {
     
     let typeLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .systemGray
+        label.textColor = .systemRed
         label.font = .rounded(ofSize: 24, weight: .medium)
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
